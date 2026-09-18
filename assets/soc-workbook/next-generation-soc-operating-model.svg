@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Next generation AI-enabled SOC operating model</title>
+  <desc id="desc">SOC Manager governs, SOC Architect designs, AI SOC Engineer builds, AI SOC Analyst operates, and AI agents execute bounded tasks.</desc>
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#18364b" flood-opacity=".13"/></filter>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#567086"/></marker>
+    <style>
+      .title{font:700 34px 'Segoe UI',Arial,sans-serif;fill:#102f41}.sub{font:400 18px 'Segoe UI',Arial,sans-serif;fill:#52677a}.role{font:700 25px 'Segoe UI',Arial,sans-serif;fill:#fff}.verb{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#fff;letter-spacing:1.2px}.body{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#fff}.h{font:700 19px 'Segoe UI',Arial,sans-serif;fill:#173a4e}.t{font:400 15px 'Segoe UI',Arial,sans-serif;fill:#496176}.tiny{font:600 14px 'Segoe UI',Arial,sans-serif;fill:#5a7082}
+    </style>
+  </defs>
+  <rect width="1600" height="1040" fill="#fff"/>
+  <text x="70" y="62" class="title">Next-generation AI-enabled SOC roles</text>
+  <text x="70" y="94" class="sub">A four-role accountability model with bounded, auditable AI execution</text>
+
+  <g filter="url(#s)">
+    <rect x="85" y="135" width="690" height="145" rx="8" fill="#183f56"/>
+    <text x="120" y="173" class="verb">GOVERN</text><text x="120" y="209" class="role">SOC MANAGER</text>
+    <text x="120" y="243" class="body">Effectiveness · Risk · People · Priorities · Autonomy policy · Business outcomes</text>
+    <rect x="825" y="135" width="690" height="145" rx="8" fill="#eaf3f6" stroke="#bad0dc"/>
+    <text x="860" y="176" class="h">DECISION RIGHTS</text>
+    <text x="860" y="208" class="t">Defines what AI may do autonomously, conditionally, or only with approval.</text>
+    <text x="860" y="238" class="t">Owns service health, escalation, staffing, competency and accountability.</text>
+  </g>
+  <path d="M430 280V321" stroke="#567086" stroke-width="3" marker-end="url(#a)"/>
+
+  <g filter="url(#s)">
+    <rect x="85" y="325" width="690" height="145" rx="8" fill="#366a72"/>
+    <text x="120" y="363" class="verb">DESIGN</text><text x="120" y="399" class="role">SOC ARCHITECT</text>
+    <text x="120" y="433" class="body">Ecosystem · Agent topology · Trust boundaries · Data · Identity · Integration</text>
+    <rect x="825" y="325" width="690" height="145" rx="8" fill="#edf5f2" stroke="#b5d0c5"/>
+    <text x="860" y="366" class="h">SYSTEM COHERENCE</text>
+    <text x="860" y="398" class="t">Defines orchestration, shared context, permissions, isolation and audit patterns.</text>
+    <text x="860" y="428" class="t">Reviews system-level security and integration evidence before production.</text>
+  </g>
+  <path d="M430 470V511" stroke="#567086" stroke-width="3" marker-end="url(#a)"/>
+
+  <g filter="url(#s)">
+    <rect x="85" y="515" width="690" height="145" rx="8" fill="#c56f1b"/>
+    <text x="120" y="553" class="verb">BUILD</text><text x="120" y="589" class="role">AI SOC ENGINEER</text>
+    <text x="120" y="623" class="body">Detections · Agents · Automation · Simulation · Evaluation · Deployment</text>
+    <rect x="825" y="515" width="690" height="145" rx="8" fill="#f8f2e9" stroke="#dfc9aa"/>
+    <text x="860" y="556" class="h">CAPABILITY LIFECYCLE</text>
+    <text x="860" y="588" class="t">Implements, tests, tunes, versions, monitors, rolls back and improves capabilities.</text>
+    <text x="860" y="618" class="t">Uses analyst overrides, simulations and outcome metrics as engineering feedback.</text>
+  </g>
+  <path d="M430 660V701" stroke="#567086" stroke-width="3" marker-end="url(#a)"/>
+
+  <g filter="url(#s)">
+    <rect x="85" y="705" width="690" height="145" rx="8" fill="#b8433f"/>
+    <text x="120" y="743" class="verb">OPERATE</text><text x="120" y="779" class="role">AI SOC ANALYST</text>
+    <text x="120" y="813" class="body">Validate · Investigate · Decide · Respond · Hunt · Coordinate recovery</text>
+    <rect x="825" y="705" width="690" height="145" rx="8" fill="#f7eeee" stroke="#d9b9b7"/>
+    <text x="860" y="746" class="h">HUMAN QUALITY GATE</text>
+    <text x="860" y="778" class="t">Challenges evidence and reasoning, requests more investigation, and overrides errors.</text>
+    <text x="860" y="808" class="t">Approves or executes disruptive response actions according to policy.</text>
+  </g>
+  <path d="M430 850V883" stroke="#567086" stroke-width="3" marker-end="url(#a)"/>
+
+  <rect x="85" y="888" width="1430" height="112" rx="8" fill="#eef4f8" stroke="#c0d1dc"/>
+  <text x="120" y="924" class="h">AI EXECUTION LAYER</text>
+  <text x="120" y="955" class="t">Bounded, auditable task execution</text>
+  <g>
+    <rect x="630" y="913" width="130" height="54" rx="27" fill="#2374a5"/><text x="695" y="946" text-anchor="middle" class="verb">TRIAGE</text>
+    <rect x="775" y="913" width="165" height="54" rx="27" fill="#2374a5"/><text x="857" y="946" text-anchor="middle" class="verb">INVESTIGATE</text>
+    <rect x="955" y="913" width="130" height="54" rx="27" fill="#2374a5"/><text x="1020" y="946" text-anchor="middle" class="verb">HUNT</text>
+    <rect x="1100" y="913" width="110" height="54" rx="27" fill="#2374a5"/><text x="1155" y="946" text-anchor="middle" class="verb">CTI</text>
+    <rect x="1225" y="913" width="145" height="54" rx="27" fill="#6f2633"/><text x="1297" y="946" text-anchor="middle" class="verb">RESPOND</text>
+    <rect x="1385" y="913" width="100" height="54" rx="27" fill="#366a72"/><text x="1435" y="946" text-anchor="middle" class="verb">TOOLS</text>
+  </g>
+  <text x="800" y="1026" text-anchor="middle" class="tiny">Manager governs · Architect designs · Engineer builds · Analyst operates · Agents execute</text>
+</svg>

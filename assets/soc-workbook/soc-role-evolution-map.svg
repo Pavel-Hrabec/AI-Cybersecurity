@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Traditional SOC roles mapped to next-generation roles</title>
+  <desc id="desc">Traditional analyst, response, engineering, architecture and management responsibilities consolidate into AI SOC Analyst, AI SOC Engineer, SOC Architect and SOC Manager, supported by AI agents.</desc>
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#18364b" flood-opacity=".12"/></filter>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#71889a"/></marker>
+    <style>
+      .title{font:700 34px 'Segoe UI',Arial,sans-serif;fill:#102f41}.sub{font:400 18px 'Segoe UI',Arial,sans-serif;fill:#52677a}.col{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#536b7c;letter-spacing:1px}.h{font:700 20px 'Segoe UI',Arial,sans-serif}.t{font:400 15px 'Segoe UI',Arial,sans-serif}.w{fill:#fff}.d{fill:#173a4e}.m{fill:#52677a}.tag{font:700 13px 'Segoe UI',Arial,sans-serif;fill:#fff;letter-spacing:.5px}
+    </style>
+  </defs>
+  <rect width="1800" height="1080" fill="#fff"/>
+  <text x="65" y="60" class="title">From tiered roles to an AI-enabled operating model</text>
+  <text x="65" y="92" class="sub">Responsibilities consolidate; accountability remains human and specialist depth remains available where risk or scale requires it</text>
+  <text x="65" y="138" class="col">TRADITIONAL ROLE FAMILIES</text><text x="690" y="138" class="col">TRANSITION</text><text x="1110" y="138" class="col">NEXT-GENERATION ACCOUNTABILITY</text>
+
+  <g filter="url(#s)">
+    <rect x="65" y="170" width="500" height="178" rx="8" fill="#edf5fa" stroke="#b8d0df"/>
+    <text x="95" y="207" class="h d">ANALYSIS &amp; RESPONSE</text>
+    <text x="95" y="239" class="t m">L1 · L2 · much of L3 · IR Analyst · Threat Hunter</text>
+    <text x="95" y="268" class="t m">Operational CTI · selected DFIR / cloud / identity analysis</text>
+    <rect x="95" y="292" width="320" height="34" rx="17" fill="#2374a5"/><text x="255" y="314" text-anchor="middle" class="tag">VALIDATE · INVESTIGATE · RESPOND</text>
+  </g>
+  <path d="M565 259H690" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="705" y="204" width="300" height="110" rx="8" fill="#f5f8fa" stroke="#c7d5de"/>
+  <text x="855" y="238" text-anchor="middle" class="h d">CONSOLIDATE</text><text x="855" y="270" text-anchor="middle" class="t m">AI performs routine execution;</text><text x="855" y="294" text-anchor="middle" class="t m">analyst remains the quality gate.</text>
+  <path d="M1005 259H1090" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <g filter="url(#s)"><rect x="1110" y="170" width="625" height="178" rx="8" fill="#b8433f"/><text x="1145" y="211" class="h w">AI SOC ANALYST · OPERATE</text><text x="1145" y="245" class="t w">Confirm incidents · Determine scope · Challenge AI reasoning</text><text x="1145" y="274" class="t w">Authorize response · Coordinate remediation and recovery</text><text x="1145" y="303" class="t w">Specialize in identity, cloud, endpoint, hunting, DFIR, malware or CTI</text></g>
+
+  <g filter="url(#s)">
+    <rect x="65" y="382" width="500" height="178" rx="8" fill="#f8f2e9" stroke="#dfc9aa"/>
+    <text x="95" y="419" class="h d">ENGINEERING &amp; VALIDATION</text>
+    <text x="95" y="451" class="t m">Detection · SOAR / automation · Purple Team / validation</text>
+    <text x="95" y="480" class="t m">Parts of SIEM engineering · AI engineering · data science</text>
+    <rect x="95" y="504" width="345" height="34" rx="17" fill="#c56f1b"/><text x="267" y="526" text-anchor="middle" class="tag">BUILD · TEST · SIMULATE · IMPROVE</text>
+  </g>
+  <path d="M565 471H690" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="705" y="416" width="300" height="110" rx="8" fill="#f5f8fa" stroke="#c7d5de"/>
+  <text x="855" y="450" text-anchor="middle" class="h d">INTEGRATE</text><text x="855" y="482" text-anchor="middle" class="t m">Detection, agents, automation</text><text x="855" y="506" text-anchor="middle" class="t m">and validation share one lifecycle.</text>
+  <path d="M1005 471H1090" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <g filter="url(#s)"><rect x="1110" y="382" width="625" height="178" rx="8" fill="#c56f1b"/><text x="1145" y="423" class="h w">AI SOC ENGINEER · BUILD</text><text x="1145" y="457" class="t w">Develop detections, agents, playbooks and integrations</text><text x="1145" y="486" class="t w">Simulate attacks · Evaluate outcomes · Tune · Version · Deploy</text><text x="1145" y="515" class="t w">Monitor failures, overrides, drift, regressions and rollback readiness</text></g>
+
+  <g filter="url(#s)">
+    <rect x="65" y="594" width="500" height="178" rx="8" fill="#edf5f2" stroke="#b5d0c5"/>
+    <text x="95" y="631" class="h d">ARCHITECTURE</text>
+    <text x="95" y="663" class="t m">Security / SOC Architect · senior SIEM architecture</text>
+    <text x="95" y="692" class="t m">Data, identity, integration and platform architecture</text>
+    <rect x="95" y="716" width="330" height="34" rx="17" fill="#366a72"/><text x="260" y="738" text-anchor="middle" class="tag">DESIGN · BOUND · ASSURE</text>
+  </g>
+  <path d="M565 683H690" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="705" y="628" width="300" height="110" rx="8" fill="#f5f8fa" stroke="#c7d5de"/>
+  <text x="855" y="662" text-anchor="middle" class="h d">EXPAND</text><text x="855" y="694" text-anchor="middle" class="t m">Architecture now includes the</text><text x="855" y="718" text-anchor="middle" class="t m">multi-agent trust model.</text>
+  <path d="M1005 683H1090" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <g filter="url(#s)"><rect x="1110" y="594" width="625" height="178" rx="8" fill="#366a72"/><text x="1145" y="635" class="h w">SOC ARCHITECT · DESIGN</text><text x="1145" y="669" class="t w">Own ecosystem architecture, orchestration and shared context</text><text x="1145" y="698" class="t w">Define tools, permissions, identities, isolation and audit patterns</text><text x="1145" y="727" class="t w">Validate system-level integration and architectural risk</text></g>
+
+  <g filter="url(#s)">
+    <rect x="65" y="806" width="500" height="178" rx="8" fill="#eaf3f6" stroke="#bad0dc"/>
+    <text x="95" y="843" class="h d">LEADERSHIP &amp; GOVERNANCE</text>
+    <text x="95" y="875" class="t m">SOC Manager · shift management · much of IR management</text>
+    <text x="95" y="904" class="t m">Service governance · staffing · escalation · quality</text>
+    <rect x="95" y="928" width="345" height="34" rx="17" fill="#183f56"/><text x="267" y="950" text-anchor="middle" class="tag">GOVERN · PRIORITIZE · ACCOUNT</text>
+  </g>
+  <path d="M565 895H690" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="705" y="840" width="300" height="110" rx="8" fill="#f5f8fa" stroke="#c7d5de"/>
+  <text x="855" y="874" text-anchor="middle" class="h d">GOVERN AUTONOMY</text><text x="855" y="906" text-anchor="middle" class="t m">Set decision rights, approvals,</text><text x="855" y="930" text-anchor="middle" class="t m">risk appetite and accountability.</text>
+  <path d="M1005 895H1090" stroke="#71889a" stroke-width="3" marker-end="url(#a)"/>
+  <g filter="url(#s)"><rect x="1110" y="806" width="625" height="178" rx="8" fill="#183f56"/><text x="1145" y="847" class="h w">SOC MANAGER · GOVERN</text><text x="1145" y="881" class="t w">Own effectiveness, people, service levels, risk and priorities</text><text x="1145" y="910" class="t w">Define acceptable autonomy and approval requirements</text><text x="1145" y="939" class="t w">Remain accountable for business outcomes and escalation</text></g>
+
+  <rect x="500" y="1015" width="800" height="42" rx="21" fill="#eef4f8" stroke="#c0d1dc"/>
+  <text x="900" y="1042" text-anchor="middle" class="t d">AI execution layer: bounded agents perform repeatable tasks; humans retain judgment, authority and accountability.</text>
+</svg>
