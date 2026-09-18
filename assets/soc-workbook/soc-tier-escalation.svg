@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img" aria-labelledby="title desc">
+  <title id="title">Traditional SOC tier escalation workflow</title>
+  <desc id="desc">Security telemetry becomes alerts and incidents, then moves through tier 1 triage, tier 2 investigation, tier 3 expert analysis, and incident response. Specialists support every tier.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#16324f" flood-opacity="0.13"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#49657d"/></marker>
+    <style>
+      .title{font:700 34px 'Segoe UI',Arial,sans-serif;fill:#102f41}.subtitle{font:400 18px 'Segoe UI',Arial,sans-serif;fill:#52677a}
+      .boxTitle{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#fff}.boxText{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#fff}.small{font:600 15px 'Segoe UI',Arial,sans-serif;fill:#52677a}
+      .sideTitle{font:700 20px 'Segoe UI',Arial,sans-serif;fill:#173a4e}.sideText{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#355267}
+    </style>
+  </defs>
+  <rect width="1600" height="940" fill="#fff"/>
+  <text x="72" y="62" class="title">Traditional SOC escalation workflow</text>
+  <text x="72" y="94" class="subtitle">A common operating model, not a universal job-title standard</text>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="132" width="920" height="82" rx="8" fill="#eef5fa" stroke="#bad0df"/>
+    <text x="580" y="165" text-anchor="middle" class="sideTitle">SECURITY TELEMETRY</text>
+    <text x="580" y="193" text-anchor="middle" class="sideText">Microsoft Sentinel · XDR · EDR · Network · Identity · Cloud</text>
+  </g>
+  <path d="M580 214V249" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="330" y="252" width="500" height="58" rx="29" fill="#163f59"/>
+  <text x="580" y="288" text-anchor="middle" class="boxTitle">ALERTS &amp; INCIDENTS</text>
+  <path d="M580 310V347" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="350" width="920" height="118" rx="8" fill="#2374a5"/>
+    <text x="154" y="385" class="boxTitle">TIER 1 · MONITOR &amp; TRIAGE</text>
+    <text x="154" y="418" class="boxText">Monitor → Categorize → Prioritize → Initial investigation</text>
+    <text x="154" y="446" class="boxText">Document → Close under approved procedures, or escalate</text>
+  </g>
+  <text x="580" y="491" text-anchor="middle" class="small">Escalate when complexity, severity, uncertainty, or authority requires it</text>
+  <path d="M580 468V513" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="516" width="920" height="118" rx="8" fill="#d0781f"/>
+    <text x="154" y="551" class="boxTitle">TIER 2 · INVESTIGATE &amp; DECIDE</text>
+    <text x="154" y="584" class="boxText">Correlate evidence → Deep investigation → Validate impact and severity</text>
+    <text x="154" y="612" class="boxText">Guide Tier 1 → Coordinate tuning → Decide escalation or response</text>
+  </g>
+  <text x="580" y="657" text-anchor="middle" class="small">Escalate complex threats, critical impact, or specialist requirements</text>
+  <path d="M580 634V679" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="682" width="920" height="118" rx="8" fill="#b8433f"/>
+    <text x="154" y="717" class="boxTitle">TIER 3 · EXPERT ANALYSIS</text>
+    <text x="154" y="750" class="boxText">Complex investigation → Attack-path and malware analysis → Root cause</text>
+    <text x="154" y="778" class="boxText">Critical-incident support → Detection and visibility improvement</text>
+  </g>
+  <path d="M580 800V837" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="120" y="840" width="920" height="72" rx="8" fill="#6f2633"/>
+  <text x="154" y="871" class="boxTitle">INCIDENT RESPONSE &amp; DFIR</text>
+  <text x="154" y="898" class="boxText">Contain → Eradicate → Recover · Preserve evidence · Post-incident improvement</text>
+
+  <g filter="url(#shadow)">
+    <rect x="1100" y="132" width="420" height="668" rx="8" fill="#f5f8fa" stroke="#cbd9e2"/>
+    <rect x="1100" y="132" width="420" height="72" rx="8" fill="#173f57"/>
+    <text x="1132" y="176" class="boxTitle">SPECIALIST SUPPORT</text>
+    <text x="1132" y="242" class="sideTitle">Threat Hunting &amp; CTI</text>
+    <text x="1132" y="270" class="sideText">Hypotheses, adversary context, TTPs</text>
+    <line x1="1132" y1="295" x2="1488" y2="295" stroke="#d3dfe6"/>
+    <text x="1132" y="336" class="sideTitle">Detection Engineering</text>
+    <text x="1132" y="364" class="sideText">Rules, coverage, tuning, validation</text>
+    <line x1="1132" y1="389" x2="1488" y2="389" stroke="#d3dfe6"/>
+    <text x="1132" y="430" class="sideTitle">Cloud &amp; Identity Security</text>
+    <text x="1132" y="458" class="sideText">Domain expertise and containment</text>
+    <line x1="1132" y1="483" x2="1488" y2="483" stroke="#d3dfe6"/>
+    <text x="1132" y="524" class="sideTitle">Malware &amp; Forensics</text>
+    <text x="1132" y="552" class="sideText">Artifacts, evidence, reverse engineering</text>
+    <line x1="1132" y1="577" x2="1488" y2="577" stroke="#d3dfe6"/>
+    <text x="1132" y="618" class="sideTitle">Platform &amp; SOAR Engineering</text>
+    <text x="1132" y="646" class="sideText">Telemetry, reliability, enrichment, automation</text>
+    <line x1="1132" y1="671" x2="1488" y2="671" stroke="#d3dfe6"/>
+    <text x="1132" y="712" class="sideTitle">Purple Team</text>
+    <text x="1132" y="740" class="sideText">Controls and detection validation</text>
+    <text x="1310" y="778" text-anchor="middle" class="small">Engage at any tier as needed</text>
+  </g>
+  <path d="M1100 409H1044" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1100 575H1044" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1100 741H1044" stroke="#49657d" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>
